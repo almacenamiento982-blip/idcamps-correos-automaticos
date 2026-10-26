@@ -1,0 +1,100 @@
+{
+ "Chicago": {
+  "d0": {
+   "asunto": "Your Juventus ID Camp Chicago registration is almost done",
+   "pre": "Questions or trouble with the payment? We can help.",
+   "archivo": "email_chicago_d0.html"
+  },
+  "d3": {
+   "asunto": "What makes the Juventus ID Camp Chicago different",
+   "pre": "Coaches from Italy, a complete evaluation and a history that backs it up.",
+   "archivo": "email_chicago_d4.html"
+  },
+  "idioma": "en",
+  "inicio": "2026-11-14"
+ },
+ "Dallas": {
+  "d0": {
+   "asunto": "Tu inscripción al ID Camp de Juventus en Dallas está casi lista",
+   "pre": "¿Dudas o algún problema con el pago? Te ayudamos.",
+   "archivo": "email_dallas_d0.html"
+  },
+  "d3": {
+   "asunto": "Qué hace diferente al ID Camp de Juventus en Dallas",
+   "pre": "Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.",
+   "archivo": "email_dallas_d4.html"
+  },
+  "idioma": "es",
+  "inicio": "2026-11-21"
+ },
+ "Midland": {
+  "d0": {
+   "asunto": "Your Juventus ID Camp Midland registration is almost done",
+   "pre": "Questions or trouble with the payment? We can help.",
+   "archivo": "email_midland_d0.html"
+  },
+  "d3": {
+   "asunto": "What makes the Juventus ID Camp Midland different",
+   "pre": "Coaches from Italy, a complete evaluation and a history that backs it up.",
+   "archivo": "email_midland_d4.html"
+  },
+  "idioma": "en",
+  "inicio": "2026-12-09"
+ },
+ "Hawaii": {
+  "d0": {
+   "asunto": "Your Juventus ID Camp Hawaii registration is almost done",
+   "pre": "Questions or trouble with the payment? We can help.",
+   "archivo": "email_hawaii_d0.html"
+  },
+  "d3": {
+   "asunto": "What makes the Juventus ID Camp Hawaii different",
+   "pre": "Coaches from Italy, a complete evaluation and a history that backs it up.",
+   "archivo": "email_hawaii_d4.html"
+  },
+  "idioma": "en",
+  "inicio": "2026-12-14"
+ },
+ "Mayagüez": {
+  "d0": {
+   "asunto": "Tu inscripción al ID Camp de Juventus en Mayagüez está casi lista",
+   "pre": "¿Dudas o algún problema con el pago? Te ayudamos.",
+   "archivo": "email_mayaguez_d0.html"
+  },
+  "d3": {
+   "asunto": "Qué hace diferente al ID Camp de Juventus en Mayagüez",
+   "pre": "Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.",
+   "archivo": "email_mayaguez_d4.html"
+  },
+  "idioma": "es",
+  "inicio": "2026-12-16"
+ },
+ "Atlanta": {
+  "d0": {
+   "asunto": "Your Juventus ID Camp Atlanta registration is almost done",
+   "pre": "Questions or trouble with the payment? We can help.",
+   "archivo": "email_atlanta_d0.html"
+  },
+  "d3": {
+   "asunto": "What makes the Juventus ID Camp Atlanta different",
+   "pre": "Coaches from Italy, a complete evaluation and a history that backs it up.",
+   "archivo": "email_atlanta_d4.html"
+  },
+  "idioma": "en",
+  "inicio": "2026-12-19"
+ },
+ "Bayamón": {
+  "d0": {
+   "asunto": "Tu inscripción al ID Camp de Juventus en Bayamón está casi lista",
+   "pre": "¿Dudas o algún problema con el pago? Te ayudamos.",
+   "archivo": "email_bayamon_d0.html"
+  },
+  "d3": {
+   "asunto": "Qué hace diferente al ID Camp de Juventus en Bayamón",
+   "pre": "Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.",
+   "archivo": "email_bayamon_d4.html"
+  },
+  "idioma": "es",
+  "inicio": "2026-12-21"
+ }
+}
