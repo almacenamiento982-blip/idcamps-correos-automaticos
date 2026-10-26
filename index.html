@@ -40,7 +40,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 <h1>Correos automáticos a familias que se registran y no pagan</h1>
 <p class="lead">Dos correos y un SMS que salen solos, sede por sede, a cada familia que empieza la inscripción y no paga. Al aprobarlos, reemplazan al correo "What parents ask most" programado para Chicago el 29 de octubre y, desde ahí, a los correos para familias sin pagar del plan.</p>
 <div class="flujo">
-  <div><b>Día 0 · correo 1</b>Apoyo: la inscripción quedó a medio camino, cómo retomarla y ayuda por Instagram si hubo un problema con el pago.</div>
+  <div><b>Día 0 · correo 1</b>Apoyo: la inscripción quedó a medio camino, cómo retomarla y un botón para escribir por Instagram si hubo un problema con el pago. Sale una hora después del registro.</div>
   <div><b>Día 1 · SMS</b>El SMS automático que ya funciona desde el 21 de octubre.</div>
   <div><b>Día 3 · correo 2</b>Por qué Juventus: entrenadores desde Italia, trayectoria, evaluación completa, cuenta regresiva y descuento de hermanos.</div>
   <div><b>Día 7 · SMS</b>Nuevo: cuenta regresiva + entrenadores desde Italia + enlace al pago. Último paso de la secuencia (ver al final).</div>
@@ -68,6 +68,10 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
   <h3>Confirmar: viajes a Italia en todas las sedes</h3><p>El correo 2 dice, para todas las sedes, "Cada año, jugadores destacados de nuestros camps se ganan la oportunidad de viajar a Italia a entrenar y competir en las instalaciones oficiales de Juventus". Jesús lo dice de Dallas en su video. Si no aplica en todas, se deja solo en Dallas.</p>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
   <div class="nota" hidden><textarea rows="2" placeholder="¿Algún cambio? Escríbelo aquí"></textarea><button data-accion="enviar-nota">Enviar nota</button></div>
+  <p class="aviso" data-aviso aria-live="polite"></p></article><article class="mail dec" data-id="d_precio"><header><span class="k">Decisión</span><span class="estado" data-estado>Pendiente</span></header>
+  <h3>Confirmar: el precio no cambia antes del camp</h3><p>El correo 2 dice el precio de cada sede ($225 en Chicago, Dallas, Atlanta, Mayagüez y Bayamón; $345 en Midland y Hawaii), igual que hoy la página de inscripción. La página lo muestra como <b>"Early Discount"</b>: si el precio va a subir en alguna fecha, hay que decirlo para cambiar el correo ese día. Nota aparte sobre la página: arriba dice 6 a 16 años y en las preguntas frecuentes dice 6 a 17. Los correos usan 6 a 16.</p>
+  <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
+  <div class="nota" hidden><textarea rows="2" placeholder="¿Algún cambio? Escríbelo aquí"></textarea><button data-accion="enviar-nota">Enviar nota</button></div>
   <p class="aviso" data-aviso aria-live="polite"></p></article><article class="mail dec" data-id="d_instagram"><header><span class="k">Decisión</span><span class="estado" data-estado>Pendiente</span></header>
   <h3>Mensajes por Instagram</h3><p>Los dos correos invitan a escribir a @juventuscampsusa si hay dudas o problemas con el pago. Esos mensajes entran en la revisión diaria de Instagram de las 8 a. m. y se responden el mismo día (Instagram solo deja responder dentro de las 24 horas).</p>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -78,7 +82,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 <section id="chicago" class="sede"><h2>Chicago</h2><p class="meta">Inglés</p><div class="par">
 <article class="mail" data-id="chicago_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Your Juventus ID Camp Chicago registration is almost done<br><b>Vista previa:</b> Questions or trouble with the payment? We can help.</p>
   <iframe src="email_chicago_d0.html" title="Correo 1 · día 0 · Chicago" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -87,7 +91,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="chicago_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> What makes the Juventus ID Camp Chicago different<br><b>Vista previa:</b> Coaches from Italy, a complete evaluation and a history that backs it up.</p>
   <iframe src="email_chicago_d4.html" title="Correo 2 · día 3 · Chicago" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -97,7 +101,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </div></section><section id="dallas" class="sede"><h2>Dallas</h2><p class="meta">Español, con resumen en inglés · incluye el código JUVESPECTRUM</p><div class="par">
 <article class="mail" data-id="dallas_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Tu inscripción al ID Camp de Juventus en Dallas está casi lista<br><b>Vista previa:</b> ¿Dudas o algún problema con el pago? Te ayudamos.</p>
   <iframe src="email_dallas_d0.html" title="Correo 1 · día 0 · Dallas" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -106,7 +110,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="dallas_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> Qué hace diferente al ID Camp de Juventus en Dallas<br><b>Vista previa:</b> Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.</p>
   <iframe src="email_dallas_d4.html" title="Correo 2 · día 3 · Dallas" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -116,7 +120,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </div></section><section id="midland" class="sede"><h2>Midland</h2><p class="meta">Inglés</p><div class="par">
 <article class="mail" data-id="midland_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Your Juventus ID Camp Midland registration is almost done<br><b>Vista previa:</b> Questions or trouble with the payment? We can help.</p>
   <iframe src="email_midland_d0.html" title="Correo 1 · día 0 · Midland" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -125,7 +129,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="midland_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> What makes the Juventus ID Camp Midland different<br><b>Vista previa:</b> Coaches from Italy, a complete evaluation and a history that backs it up.</p>
   <iframe src="email_midland_d4.html" title="Correo 2 · día 3 · Midland" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -135,7 +139,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </div></section><section id="hawaii" class="sede"><h2>Hawaii</h2><p class="meta">Inglés</p><div class="par">
 <article class="mail" data-id="hawaii_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Your Juventus ID Camp Hawaii registration is almost done<br><b>Vista previa:</b> Questions or trouble with the payment? We can help.</p>
   <iframe src="email_hawaii_d0.html" title="Correo 1 · día 0 · Hawaii" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -144,7 +148,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="hawaii_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> What makes the Juventus ID Camp Hawaii different<br><b>Vista previa:</b> Coaches from Italy, a complete evaluation and a history that backs it up.</p>
   <iframe src="email_hawaii_d4.html" title="Correo 2 · día 3 · Hawaii" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -154,7 +158,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </div></section><section id="mayaguez" class="sede"><h2>Mayagüez</h2><p class="meta">Español</p><div class="par">
 <article class="mail" data-id="mayaguez_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Tu inscripción al ID Camp de Juventus en Mayagüez está casi lista<br><b>Vista previa:</b> ¿Dudas o algún problema con el pago? Te ayudamos.</p>
   <iframe src="email_mayaguez_d0.html" title="Correo 1 · día 0 · Mayagüez" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -163,7 +167,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="mayaguez_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> Qué hace diferente al ID Camp de Juventus en Mayagüez<br><b>Vista previa:</b> Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.</p>
   <iframe src="email_mayaguez_d4.html" title="Correo 2 · día 3 · Mayagüez" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -173,7 +177,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </div></section><section id="atlanta" class="sede"><h2>Atlanta</h2><p class="meta">Inglés</p><div class="par">
 <article class="mail" data-id="atlanta_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Your Juventus ID Camp Atlanta registration is almost done<br><b>Vista previa:</b> Questions or trouble with the payment? We can help.</p>
   <iframe src="email_atlanta_d0.html" title="Correo 1 · día 0 · Atlanta" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -182,7 +186,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="atlanta_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> What makes the Juventus ID Camp Atlanta different<br><b>Vista previa:</b> Coaches from Italy, a complete evaluation and a history that backs it up.</p>
   <iframe src="email_atlanta_d4.html" title="Correo 2 · día 3 · Atlanta" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -192,7 +196,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </div></section><section id="bayamon" class="sede"><h2>Bayamón</h2><p class="meta">Español</p><div class="par">
 <article class="mail" data-id="bayamon_d0">
   <header><span class="k">Correo 1 · día 0</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">El mismo día del registro, si no pagó.</p>
+  <p class="cuando">Una hora después del registro si no pagó (entre 8 a. m. y 9 p. m. de la sede). Quien se registra de noche lo recibe a las 8 a. m. y su SMS pasa al día siguiente.</p>
   <p class="asunto"><b>Asunto:</b> Tu inscripción al ID Camp de Juventus en Bayamón está casi lista<br><b>Vista previa:</b> ¿Dudas o algún problema con el pago? Te ayudamos.</p>
   <iframe src="email_bayamon_d0.html" title="Correo 1 · día 0 · Bayamón" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
@@ -201,7 +205,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </article>
 <article class="mail" data-id="bayamon_d4">
   <header><span class="k">Correo 2 · día 3</span><span class="estado" data-estado>Pendiente</span></header>
-  <p class="cuando">Tres días después, si sigue sin pagar.</p>
+  <p class="cuando">Tres días después, a las 11 a. m. de la sede, si sigue sin pagar. No sale si faltan menos de 3 días para el camp.</p>
   <p class="asunto"><b>Asunto:</b> Qué hace diferente al ID Camp de Juventus en Bayamón<br><b>Vista previa:</b> Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.</p>
   <iframe src="email_bayamon_d4.html" title="Correo 2 · día 3 · Bayamón" loading="lazy"></iframe>
   <div class="acc"><button class="ap" data-accion="aprobar">Aprobar</button><button data-accion="nota">Dejar una nota</button></div>
