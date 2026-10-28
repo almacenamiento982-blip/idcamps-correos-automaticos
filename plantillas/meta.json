@@ -96,5 +96,19 @@
   },
   "idioma": "es",
   "inicio": "2026-12-21"
+ },
+ "Detroit": {
+  "d0": {
+   "asunto": "Your Juventus ID Camp Detroit registration is almost done",
+   "pre": "Questions or trouble with the payment? We can help.",
+   "archivo": "email_detroit_d0.html"
+  },
+  "d3": {
+   "asunto": "What makes the Juventus ID Camp Detroit different",
+   "pre": "Coaches from Italy, a complete evaluation and a history that backs it up.",
+   "archivo": "email_detroit_d4.html"
+  },
+  "idioma": "en",
+  "inicio": "2026-12-28"
  }
 }
