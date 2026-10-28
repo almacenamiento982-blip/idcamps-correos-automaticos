@@ -1,1 +1,66 @@
-{}
+{
+ "d_carriles": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T22:59:29.705711Z"
+ },
+ "d_reglas": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:02:50.959167Z"
+ },
+ "d_una_sede": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:05:47.850735Z"
+ },
+ "d_reemplazo": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:07:40.029055Z"
+ },
+ "d_instagram": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:09:44.457455Z"
+ },
+ "chicago_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:10:32.760511Z"
+ },
+ "dallas_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:11:45.363935Z"
+ },
+ "midland_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:13:30.169615Z"
+ },
+ "hawaii_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:13:57.120431Z"
+ },
+ "hawaii_d4": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:02.291647Z"
+ },
+ "mayaguez_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:10.847631Z"
+ },
+ "mayaguez_d4": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:18.668511Z"
+ },
+ "atlanta_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:25.484415Z"
+ },
+ "atlanta_d4": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:30.563375Z"
+ },
+ "bayamon_d0": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:36.638287Z"
+ },
+ "bayamon_d4": {
+  "tipo": "aprobado",
+  "hora": "2026-10-27T23:14:40.783055Z"
+ }
+}
