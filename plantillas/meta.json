@@ -110,5 +110,43 @@
   },
   "idioma": "en",
   "inicio": "2026-12-28"
+ },
+ "Puebla": {
+  "d0": {
+   "asunto": "Tu inscripción al ID Camp de Juventus en Puebla está casi lista",
+   "pre": "¿Dudas o algún problema con el pago? Te ayudamos.",
+   "archivo": "email_puebla_d0.html"
+  },
+  "d3": {
+   "asunto": "Qué hace diferente al ID Camp de Juventus en Puebla",
+   "pre": "Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.",
+   "archivo": "email_puebla_d3.html"
+  },
+  "idioma": "es",
+  "inicio": "2026-12-14",
+  "remitente": {
+   "from_name": "Juventus Camps México",
+   "from_email": "info@juventuscampsusa.com",
+   "reply_to_email": "info@juventuscampsusa.com"
+  }
+ },
+ "Monterrey": {
+  "d0": {
+   "asunto": "Tu inscripción al ID Camp de Juventus en Monterrey está casi lista",
+   "pre": "¿Dudas o algún problema con el pago? Te ayudamos.",
+   "archivo": "email_monterrey_d0.html"
+  },
+  "d3": {
+   "asunto": "Qué hace diferente al ID Camp de Juventus en Monterrey",
+   "pre": "Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.",
+   "archivo": "email_monterrey_d3.html"
+  },
+  "idioma": "es",
+  "inicio": "2026-12-17",
+  "remitente": {
+   "from_name": "Juventus Camps México",
+   "from_email": "info@juventuscampsusa.com",
+   "reply_to_email": "info@juventuscampsusa.com"
+  }
  }
 }
