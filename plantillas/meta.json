@@ -25,7 +25,14 @@
    "archivo": "email_dallas_d4.html"
   },
   "idioma": "es",
-  "inicio": "2026-11-21"
+  "inicio": "2026-11-21",
+  "d0_promo": {
+   "desde": "2026-11-19",
+   "hasta": "2026-11-20",
+   "archivo": "email_dallas_d0_bf.html",
+   "asunto": "Ahorra $50 en tu inscripción al ID Camp de Juventus en Dallas, solo hasta el viernes",
+   "pre": "Usa el código JUVEBF. ¿Dudas o algún problema con el pago? Te ayudamos."
+  }
  },
  "Midland": {
   "d0": {
@@ -39,7 +46,21 @@
    "archivo": "email_midland_d4.html"
   },
   "idioma": "en",
-  "inicio": "2026-12-09"
+  "inicio": "2026-12-09",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_midland_d0_bf.html",
+   "asunto": "Black Friday: $50 off to finish your ID Camp Midland registration",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Questions or trouble with the payment? We can help."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_midland_d4_bf.html",
+   "asunto": "Black Friday: $50 off the Juventus ID Camp Midland, until Monday",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Coaches from Italy, a complete evaluation and a history that backs it up."
+  }
  },
  "Hawaii": {
   "d0": {
@@ -53,7 +74,21 @@
    "archivo": "email_hawaii_d4.html"
   },
   "idioma": "en",
-  "inicio": "2026-12-14"
+  "inicio": "2026-12-14",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_hawaii_d0_bf.html",
+   "asunto": "Black Friday: $50 off to finish your ID Camp Hawaii registration",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Questions or trouble with the payment? We can help."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_hawaii_d4_bf.html",
+   "asunto": "Black Friday: $50 off the Juventus ID Camp Hawaii, until Monday",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Coaches from Italy, a complete evaluation and a history that backs it up."
+  }
  },
  "Mayagüez": {
   "d0": {
@@ -67,7 +102,21 @@
    "archivo": "email_mayaguez_d4.html"
   },
   "idioma": "es",
-  "inicio": "2026-12-16"
+  "inicio": "2026-12-16",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_mayaguez_d0_bf.html",
+   "asunto": "Black Friday: $50 de descuento para terminar tu inscripción al ID Camp de Mayagüez",
+   "pre": "Usa el código JUVEBF hasta el lunes 30. ¿Dudas o algún problema con el pago? Te ayudamos."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_mayaguez_d4_bf.html",
+   "asunto": "Black Friday: $50 de descuento en el ID Camp de Juventus en Mayagüez, hasta el lunes",
+   "pre": "Usa el código JUVEBF hasta el lunes 30. Entrenadores desde Italia, una evaluación completa y una historia que lo respalda."
+  }
  },
  "Atlanta": {
   "d0": {
@@ -81,7 +130,21 @@
    "archivo": "email_atlanta_d4.html"
   },
   "idioma": "en",
-  "inicio": "2026-12-19"
+  "inicio": "2026-12-19",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_atlanta_d0_bf.html",
+   "asunto": "Black Friday: $50 off to finish your ID Camp Atlanta registration",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Questions or trouble with the payment? We can help."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_atlanta_d4_bf.html",
+   "asunto": "Black Friday: $50 off the Juventus ID Camp Atlanta, until Monday",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Coaches from Italy, a complete evaluation and a history that backs it up."
+  }
  },
  "Bayamón": {
   "d0": {
@@ -95,7 +158,21 @@
    "archivo": "email_bayamon_d4.html"
   },
   "idioma": "es",
-  "inicio": "2026-12-21"
+  "inicio": "2026-12-21",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_bayamon_d0_bf.html",
+   "asunto": "Black Friday: $50 de descuento para terminar tu inscripción al ID Camp de Bayamón",
+   "pre": "Usa el código JUVEBF hasta el lunes 30. ¿Dudas o algún problema con el pago? Te ayudamos."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_bayamon_d4_bf.html",
+   "asunto": "Black Friday: $50 de descuento en el ID Camp de Juventus en Bayamón, hasta el lunes",
+   "pre": "Usa el código JUVEBF hasta el lunes 30. Entrenadores desde Italia, una evaluación completa y una historia que lo respalda."
+  }
  },
  "Detroit": {
   "d0": {
@@ -109,7 +186,21 @@
    "archivo": "email_detroit_d4.html"
   },
   "idioma": "en",
-  "inicio": "2026-12-28"
+  "inicio": "2026-12-28",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_detroit_d0_bf.html",
+   "asunto": "Black Friday: $50 off to finish your ID Camp Detroit registration",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Questions or trouble with the payment? We can help."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_detroit_d4_bf.html",
+   "asunto": "Black Friday: $50 off the Juventus ID Camp Detroit, until Monday",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Coaches from Italy, a complete evaluation and a history that backs it up."
+  }
  },
  "Puebla": {
   "d0": {
