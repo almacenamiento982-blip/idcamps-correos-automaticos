@@ -239,5 +239,52 @@
    "from_email": "info@juventuscampsusa.com",
    "reply_to_email": "info@juventuscampsusa.com"
   }
+ },
+ "Nebraska": {
+  "d0": {
+   "asunto": "Your Juventus ID Camp Nebraska registration is almost done",
+   "pre": "Questions or trouble with the payment? We can help.",
+   "archivo": "email_nebraska_d0.html"
+  },
+  "d3": {
+   "asunto": "What makes the Juventus ID Camp Nebraska different",
+   "pre": "Coaches from Italy, a complete evaluation and a history that backs it up.",
+   "archivo": "email_nebraska_d4.html"
+  },
+  "idioma": "en",
+  "inicio": "2027-02-20",
+  "d0_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_nebraska_d0_bf.html",
+   "asunto": "Black Friday: $50 off to finish your ID Camp Nebraska registration",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Questions or trouble with the payment? We can help."
+  },
+  "d3_promo": {
+   "desde": "2026-11-27",
+   "hasta": "2026-11-30",
+   "archivo": "email_nebraska_d4_bf.html",
+   "asunto": "Black Friday: $50 off the Juventus ID Camp Nebraska, until Monday",
+   "pre": "Use code JUVEBF by Monday, Nov 30. Coaches from Italy, a complete evaluation and a history that backs it up."
+  }
+ },
+ "Córdoba": {
+  "d0": {
+   "asunto": "Tu inscripción al ID Camp de Juventus en Córdoba está casi lista",
+   "pre": "¿Dudas o algún problema con el pago? Te ayudamos.",
+   "archivo": "email_cordoba_d0.html"
+  },
+  "d3": {
+   "asunto": "Qué hace diferente al ID Camp de Juventus en Córdoba",
+   "pre": "Entrenadores desde Italia, una evaluación completa y una historia que lo respalda.",
+   "archivo": "email_cordoba_d3.html"
+  },
+  "idioma": "es",
+  "inicio": "2027-03-26",
+  "remitente": {
+   "from_name": "Juventus Camps México",
+   "from_email": "info@juventuscampsusa.com",
+   "reply_to_email": "info@juventuscampsusa.com"
+  }
  }
 }
